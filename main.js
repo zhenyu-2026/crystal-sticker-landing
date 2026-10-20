@@ -22,7 +22,7 @@
 
   function buildWhatsAppText(context) {
     const lines = [
-      "Hi! I'm interested in your crystal UV stickers / UV-DTF printers.",
+      "Hi! I'm interested in your custom crystal UV stickers.",
       "Context: " + (context || "general inquiry"),
       viaLabel,
     ];
@@ -38,7 +38,6 @@
     { id: "navWhatsApp", context: "nav" },
     { id: "heroWhatsApp", context: "hero" },
     { id: "pathWhatsApp", context: "B2C custom stickers" },
-    { id: "printerWhatsApp", context: "UV printer quote" },
     { id: "contactWhatsApp", context: "contact footer" },
   ];
   waLinks.forEach(function (item) {
@@ -55,7 +54,7 @@
 
   const mail = document.getElementById("contactEmail");
   if (mail) {
-    const subject = "Inquiry — Crystal UV & UV Printers (" + viaLabel + ")";
+    const subject = "Inquiry — Crystal UV Stickers (" + viaLabel + ")";
     const body =
       "Hello,\n\nI'd like a quote or sample info.\n\n" + viaLabel + "\n";
     mail.href =
@@ -87,7 +86,7 @@
       e.preventDefault();
       const data = new FormData(form);
       const body = [
-        "B2B inquiry — Crystal UV Stickers & UV Printers",
+        "B2B inquiry — Crystal UV Stickers",
         viaLabel,
         "Name: " + (data.get("name") || ""),
         "Contact: " + (data.get("contact") || ""),
