@@ -1,7 +1,16 @@
 (function () {
   const cfg = window.SITE_CONFIG || {};
   const wa = (cfg.whatsappE164 || "0000000000").replace(/\D/g, "");
-  const email = cfg.email || "hello@example.com";
+
+  function decodeEmail(config) {
+    const user = config && config.emailUser;
+    const host = config && config.emailHost;
+    if (typeof user !== "string" || typeof host !== "string") return "";
+    if (!user || !host) return "";
+    return user + "@" + host;
+  }
+
+  const email = decodeEmail(cfg);
 
   function sanitizeSource(raw) {
     if (!raw || typeof raw !== "string") return "";
@@ -54,17 +63,19 @@
 
   const mail = document.getElementById("contactEmail");
   if (mail) {
-    const subject = "Inquiry — Crystal UV Stickers (" + viaLabel + ")";
-    const body =
-      "Hello,\n\nI'd like a quote or sample info.\n\n" + viaLabel + "\n";
-    mail.href =
-      "mailto:" +
-      email +
-      "?subject=" +
-      encodeURIComponent(subject) +
-      "&body=" +
-      encodeURIComponent(body);
-    mail.textContent = email;
+    mail.textContent = "Email us";
+    if (email) {
+      const subject = "Inquiry — Crystal UV Stickers (" + viaLabel + ")";
+      const body =
+        "Hello,\n\nI'd like a quote or sample info.\n\n" + viaLabel + "\n";
+      mail.href =
+        "mailto:" +
+        email +
+        "?subject=" +
+        encodeURIComponent(subject) +
+        "&body=" +
+        encodeURIComponent(body);
+    }
   }
 
   const sourceNote = document.getElementById("sourceNote");
@@ -95,6 +106,7 @@
         "Country: " + (data.get("country") || ""),
         "Notes: " + (data.get("notes") || ""),
       ].join("\n");
+      if (!email) return;
       const mailto =
         "mailto:" +
         email +

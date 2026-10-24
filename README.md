@@ -21,10 +21,11 @@ python3 -m http.server 8080
 
 ```js
 whatsappE164: "8613800138000", // 仅数字，含国家码
-email: "you@domain.com",
+emailUser: "you",              // 拆开写，不要写成完整 you@domain.com
+emailHost: "domain.com",
 ```
 
-保存后刷新页面即可。
+页面按钮只显示 “Email us”，完整地址由 `main.js` 拼进 `mailto:`。保存后刷新即可。
 
 ## 注意
 
