@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zhenyu-2026.github.io/crystal-sticker-landing/sitemap.xml
+Sitemap: https://stickers.domeseal.eu.cc/sitemap.xml
