@@ -4,10 +4,10 @@ window.SITE_CONFIG = {
   // Mailbox is assembled in main.js — do not store it as one plaintext string.
   emailUser: "zxtoy2000",
   emailHost: "gmail.com",
-  brand: "Crystal UV Stickers & UV Printers",
+  brand: "Crystal UV Stickers",
   factoryTag: "Manufacturer · China",
   // Default lead source when URL has no ?src= or utm_source
   defaultSource: "website",
   // Known channel examples: website, twitter, facebook, threads
-  // Share links like: https://yoursite.github.io/?src=twitter
+  // Share links like: https://stickers.domeseal.eu.cc/?src=twitter
 };
