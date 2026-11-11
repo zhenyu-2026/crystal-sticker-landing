@@ -3,7 +3,7 @@
 **Site:** https://stickers.domeseal.eu.cc/  
 **Repo:** zhenyu-2026/crystal-sticker-landing  
 **Audience:** English B2B overseas buyers (shops, creators, wholesale / distributors)  
-**Last reviewed:** 2026-11-10 (Asia/Shanghai)
+**Last reviewed:** 2026-11-11 (Asia/Shanghai)
 
 本文件是贴纸站 Google 自然搜索关键词管理表。本站只做贴纸业务，不卖打印机。
 
@@ -113,3 +113,4 @@ Goal: make it easy for AI answer engines to quote accurate product + factory fac
 - 打印机需求只通过页脚轻量链接到 https://www.domeseal.eu.cc/ 。  
 - Update this file before major copy changes.
 - 2026-11-10: targeted waterproof crystal labels B2B samples — FAQ answer → `#inquiry` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-10`).
+- 2026-11-11: targeted UV DTF crystal stickers China factory — FAQ answer → `#stickers` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-11`).
