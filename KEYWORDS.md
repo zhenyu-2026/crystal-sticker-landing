@@ -3,7 +3,7 @@
 **Site:** https://stickers.domeseal.eu.cc/  
 **Repo:** zhenyu-2026/crystal-sticker-landing  
 **Audience:** English B2B overseas buyers (shops, creators, wholesale / distributors)  
-**Last reviewed:** 2026-11-19 (Asia/Shanghai)
+**Last reviewed:** 2026-11-23 (Asia/Shanghai)
 
 本文件是贴纸站 Google 自然搜索关键词管理表。本站只做贴纸业务，不卖打印机。
 
@@ -53,6 +53,7 @@ Footer may keep one light cross-link to the printer site; do not pitch equipment
 | `#why` | waterproof crystal finish; custom sizes; quote before pay | H2 + cards |
 | `#stickers` | crystal UV stickers retail & wholesale; tear-film / dome | H2, gallery alts, use-case list |
 | `#specs` | material, tear-film, samples, MOQ | Spec table |
+| `#metallic-foil` | metallic foil crystal UV stickers | Specs row + FAQ answer |
 | `#paths` | B2C custom orders vs B2B wholesale | Two buy paths |
 | `#faq` | prices, samples, finishes | FAQ + FAQPage JSON-LD |
 | `#inquiry` / `#contact` | B2B samples / wholesale quote | Form + WhatsApp |
@@ -83,7 +84,7 @@ Goal: make it easy for AI answer engines to quote accurate product + factory fac
 
 ### Citeable facts (keep consistent on-page + JSON-LD)
 
-- **Who:** Crystal UV Stickers — China manufacturer of custom crystal UV dome and tear-film stickers.  
+- **Who:** Crystal UV Stickers — China manufacturer of custom crystal UV dome and tear-film stickers (metallic foil is a finish, not a separate brand).  
 - **What:** Waterproof crystal dome / tear-film / metallic foil labels for retail and wholesale.  
 - **Where:** Made in China; English support (UTC+8).  
 - **How to buy:** No public unit prices; samples and B2B quotes via WhatsApp or inquiry form.  
@@ -117,3 +118,4 @@ Goal: make it easy for AI answer engines to quote accurate product + factory fac
 - 2026-11-13: targeted custom crystal dome stickers — FAQ answer → `#specs` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-13`).
 - 2026-11-17: targeted crystal UV stickers wholesale — FAQ answer → `#paths` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-17`).
 - 2026-11-19: targeted tear-film dome stickers wholesale — FAQ answer → `#tear-film` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-19`).
+- 2026-11-23: targeted metallic foil crystal UV stickers — FAQ answer → `#metallic-foil` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-23`).
