@@ -3,7 +3,7 @@
 **Site:** https://stickers.domeseal.eu.cc/  
 **Repo:** zhenyu-2026/crystal-sticker-landing  
 **Audience:** English B2B overseas buyers (shops, creators, wholesale / distributors)  
-**Last reviewed:** 2026-11-25 (Asia/Shanghai)
+**Last reviewed:** 2026-11-27 (Asia/Shanghai)
 
 本文件是贴纸站 Google 自然搜索关键词管理表。本站只做贴纸业务，不卖打印机。
 
@@ -50,7 +50,7 @@ Footer may keep one light cross-link to the printer site; do not pitch equipment
 | Anchor / block | Targets | On-page elements |
 |----------------|---------|------------------|
 | `#top` hero | crystal UV stickers wholesale; custom crystal dome; China factory samples | `<title>`, meta description, H1, lead, hero alt |
-| `#why` | waterproof crystal finish; custom sizes; quote before pay | H2 + cards |
+| `#why` / `#waterproof` | waterproof crystal dome labels wholesale; waterproof crystal finish; custom sizes; quote before pay | H2 + waterproof card + remaining cards + FAQ answer |
 | `#stickers` | crystal UV stickers retail & wholesale; tear-film / dome | H2, gallery alts, use-case list |
 | `#drinkware` | drinkware crystal UV stickers wholesale | Typical-uses item + FAQ answer |
 | `#specs` | material, tear-film, samples, MOQ | Spec table |
@@ -86,7 +86,7 @@ Goal: make it easy for AI answer engines to quote accurate product + factory fac
 ### Citeable facts (keep consistent on-page + JSON-LD)
 
 - **Who:** Crystal UV Stickers — China manufacturer of custom crystal UV dome and tear-film stickers (metallic foil is a finish, not a separate brand).  
-- **What:** Waterproof crystal dome / tear-film / metallic foil labels for retail and wholesale, including drinkware crystal UV stickers wholesale.  
+- **What:** Waterproof crystal dome labels wholesale, plus tear-film / metallic foil labels for retail and wholesale, including drinkware crystal UV stickers wholesale.  
 - **Where:** Made in China; English support (UTC+8).  
 - **How to buy:** No public unit prices; samples and B2B quotes via WhatsApp or inquiry form.  
 - **Not sold here:** UV / UV-DTF sticker printers (see printer site).  
@@ -121,3 +121,4 @@ Goal: make it easy for AI answer engines to quote accurate product + factory fac
 - 2026-11-19: targeted tear-film dome stickers wholesale — FAQ answer → `#tear-film` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-19`).
 - 2026-11-23: targeted metallic foil crystal UV stickers — FAQ answer → `#metallic-foil` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-23`).
 - 2026-11-25: targeted drinkware crystal UV stickers wholesale — FAQ answer → `#drinkware` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-25`).
+- 2026-11-27: targeted waterproof crystal dome labels wholesale — FAQ answer → `#waterproof` + tracked printer cross-links (`?src=stickers-about|stickers-footer&via=seo-2026-11-27`).
